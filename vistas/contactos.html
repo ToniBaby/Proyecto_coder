@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorcut icon" href="../nuevo proyecto/img/logo2.png">
+    <link rel="stylesheet" href="../estilos/bootstrap.css">
+    <link rel="stylesheet" href="../estilos/style.css">
+    <title>Contactos</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar container">
+            <p class="logo"><strong>Tarantino</strong></p>
+            <ul class="menu">
+                <li class="menu__item">
+                    <a class="menu__link" href="../index.html">Inicio</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="../vistas/historia.html">Historia</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="../vistas/galeria.html">Galeria</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="../vistas/futurosproyectos.html">Futuros Proyectos</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contacto__container">
+        <form  id="formulario" action="#" method="get" enctype="multipart/form-data">
+            <div class="formulario__text">
+                <h2>Contacto</h2>
+                <p>Nos interesa conocerte y saber tù opinion al respecto, saber que es lo que te gustaria, contenido que desees ver o cambios que harias. Recorda que tù opinion es de gran interes!</p>
+            </div>
+            <fieldset class="formulario__field">
+                <div class="formulario__container">
+                    <div class="formulario__div">
+                        <label class="formulario__info" for="name">Nombre</label>
+                        <input type="text" name="name" id="name"  required>
+                    </div>
+                    <div class="formulario__div">
+                        <label class="formulario__info" for="apellido">Apellido</label>
+                        <input type="text" name="apellido" id="apellido" required>
+                    </div>
+     
+                    <div class="formulario__div">
+                        <label class="formulario__info" for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="formulario__div">
+                        <label class="formulario__info" for="aclaraciones">Aclaraciones</label>
+                        <textarea name="aclaraciones" id="aclaraciones"></textarea>
+                    </div>
+                </div>
+        
+                  
+                <div>
+                    <button  type="submit" class="button">Enviar</button>
+                </div>
+            
+            </fieldset>
+        
+            
+        </form>
+    </main>
+    <footer>
+        <nav class="navbar">
+            <p class="logo">Tarantino</p>
+            <ul class="menu">
+                <li class="menu__item">
+                    <a class="menu__link" href="../index.html">Inicio</a>
+                </li>
+             
+            </ul>
+          
+        </nav>
+    </footer>
+    <script src="../js/bootstrap.bundle.js"></script>
+    
+</body>
+</html>
