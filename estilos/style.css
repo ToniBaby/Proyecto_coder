@@ -96,7 +96,7 @@ main{
     font-size: var(--text-lg);
     color: var(--secondary);
     text-shadow: 2px 2px black, 1px 1px var(--ligth);
-    
+    animation: appear 1s 1 linear;
  }     
 .navbar {
         display: flex;
@@ -108,17 +108,15 @@ main{
         gap: 1rem;
         align-items: center;
     }
-.menu__link{
-    
-}
+
     
 .menu .menu__link{
-    border-radius: 0.5em;
-        padding: 0.5rem;
+  /*  border-radius: 0.5em;*/
+        padding: 0.1rem;
        transition: all .3s ease-in-out;
     }
 .menu .menu__link:hover {
-    background-image: linear-gradient(#c9bb93, rgb(26, 24, 24));
+    background-image: linear-gradient(rgb(26, 24, 24), #c9bb93, rgb(26, 24, 24));
     color: var(--ligth);
     }
 
@@ -156,7 +154,7 @@ main{
 }
 .bg__primary .hero__link{
        border-radius: 0.5em;
-       padding: 1rem;
+       padding: 0.11rem;
        transition: all .3s ease-in-out;
     }
 .bg__primary .hero__link:hover {
@@ -234,7 +232,16 @@ main{
     max-height: 30rem;
     border-radius: 0.4rem;
     border: solid 1px  rgb(26, 24, 24);
-}     
+}  
+.figura1{
+    
+}  
+.figura2{
+
+} 
+.figura3{
+
+}  
  /*Historia*/
 
 #historia{
@@ -406,7 +413,16 @@ footer{
     
  }   
 
-
+@keyframes appear{
+    0%{
+        transform: translate(-300px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
 @media screen and (max-width: 800px){
     .navbar {
         flex-direction: column;
