@@ -1,0 +1,54 @@
+/*Normalize*/
+@import './variables'; 
+
+
+    
+    *{
+        
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* rem y em igual a 10px*/
+    
+    html{font-size: 62.5%; 
+        scroll-behavior: smooth; }
+      
+    body { background-color: #eef2edef;
+        font-family: 'Poppins', sans-serif;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        height: 100vh;
+        background-color: #c9bb93;  }
+    
+    h1{ font-size: $text-xxlg;
+        color:$secondary ;}
+    h2{ font-size: $text-xlg;
+        color:$secondary ;}
+    h3{ font-size: $text-lg;}
+    p{font-size: $text-sm;
+        color:$secondary;}
+    a{
+        display: inline-block;
+        text-decoration: none;
+        font-size: $text-md;
+        color: $secondary;
+        font-weight: bolder;
+    }
+    li{
+        list-style-type: none;
+    }
+    
+    .container{
+        max-width: 140rem;
+        margin: auto;
+     }    
+     .bg__primary{
+        background-color: $secondary;
+      }
+     .bg__dark{
+          background-image: linear-gradient(rgb(26, 24, 24), #500404, rgb(26, 24, 24));
+        
+        }
+
+       

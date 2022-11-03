@@ -1,0 +1,43 @@
+/*Header*/
+
+header{
+    max-height: 20rem;
+    background-image: linear-gradient(rgb(26, 24, 24),#9C0001, rgb(26, 24, 24));
+
+    padding: $sp-sm;
+    }
+
+     
+.navbar {
+        display: flex;
+        justify-content: space-between;
+        
+        .logo{
+            font-size: $text-lg;
+            color: $secondary;
+            text-shadow: 2px 2px black, 1px 1px $ligth;
+            animation: appear 1s 1 linear;
+         } 
+        .menu{
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+
+            .menu__link{
+  
+                padding: 0.1rem;
+                transition: all .3s ease-in-out;
+
+                &:hover {
+                    box-shadow: 0 0 1.4rem black;
+                    color: $secondary;
+                    }
+                
+             }
+        }
+    }
+
+
+
+    
+      

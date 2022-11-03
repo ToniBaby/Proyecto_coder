@@ -1,26 +1,27 @@
 /*imports*/
-
+/*
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
 /*Normalize*/
-
+/*
 :root{
 
 /*Pallete*/
+/*
 --primary: #eef2edef;   
 --secondary: #c9bb93;
 --ligth:  	#9C0001;
 --black: #00000000;
-
+*/
 /*Font Sizes*/
-
+/*
 --text-xxlg: 6.4em;
 --text-xlg:  4.8em;
 --text-lg:  3.6em;
 --text-md:  2.2em;
 --text-sm:  1.6em;
-
+*/
 /*Spacings*/
-
+/*
  --sp-xxl: 12rem;
  --sp-xl:  8rem;
  --sp-l:   5rem;
@@ -35,9 +36,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}*/
 /* rem y em igual a 10px*/
-
+/*
 html{
     font-size: 62.5%; 
     scroll-behavior: smooth;
@@ -50,8 +51,8 @@ body {background-color: var(--primary);
     
     background-color: var(--secondary);
     
-}
-
+}*/
+/*
 h1{ font-size: var(--text-xxlg);
 color:var(--secondary) ;}
 h2{ font-size: var(--text-xlg);
@@ -74,15 +75,17 @@ li{
     max-width: 140rem;
     margin: auto;
     
-    
-    
-}
+    */
+  /*  
+}/*
 header{
     max-height: 20rem;
     background-image: linear-gradient(rgb(26, 24, 24),#9C0001, rgb(26, 24, 24));
 
     padding: var(--sp-sm);
     }
+    */
+    /*
 main{
      
      }    
@@ -92,7 +95,8 @@ main{
 .bg__dark{
         background-image: linear-gradient(rgb(26, 24, 24), #9C0001, rgb(26, 24, 24));
       
-      }
+      }*/
+      /*
 .logo{
     font-size: var(--text-lg);
     color: var(--secondary);
@@ -121,7 +125,9 @@ main{
     box-shadow: 0 0 1.4rem black;
     color: var(--secondary);
     }
-
+    */
+/* Hero*/
+/*
 #hero{
     display: flex;
     align-items: center;
@@ -164,7 +170,9 @@ main{
      box-shadow: 0 0 1.4rem black;
     color: var(--ligth);
     }
-
+*/
+/* Cards*/
+/*
 #cards{
   padding: var(--sp-xl);
   display: flex;
@@ -174,7 +182,7 @@ main{
 } 
 #cards div{
    
-   /* gap: var(--sp-md);*/  
+   /* gap: var(--sp-md);
 }
 
   
@@ -203,12 +211,12 @@ main{
     color: var(--secondary);
     font-size: var(--text-lg );
     align-items: center;
-}
-.cards__parrafo{
-    color: var(--secondary);
-    max-height: var(--sp-md)
-    ;
-    
+}9 
+.cards__parrafo{9 
+    color: var(--secondary);9 
+    max-height: var(--sp-md)9 
+    ;9 
+    9 
 }
  #cards .container{
     padding: 5rem 1.2rem;
@@ -236,17 +244,10 @@ main{
     border-radius: 0.4rem;
     border: solid 1px  rgb(26, 24, 24);
 }  
-.figura1{
-    
-}  
-.figura2{
 
-} 
-.figura3{
-
-}  
+*/
  /*Historia*/
-
+/*
 #historia{
     display: flex;
     flex-direction: column;
@@ -268,7 +269,9 @@ main{
     border: solid 1px rgb(255,255, 255);
 
 }
+*/
 /*Peliculas*/
+/*
 #peliculas{
     
     
@@ -284,16 +287,7 @@ main{
     padding: 1rem;
  
 } 
-/*.peli__item{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0.4rem;
-    border: solid 1px rgb(255,255, 255);
-} */  
+
 .pelis__img{
     display: flex;
     align-items: center;
@@ -313,9 +307,9 @@ main{
     filter: opacity(0.9);
     transform: scale(1.04);
 }
-
+*/
 /*Futuros Proyectos*/
-
+/*
 #proyectos{
     display: flex;
     flex-direction: column;
@@ -337,14 +331,16 @@ main{
    border-radius: 0.4rem;
     border: solid 1px  rgb(26, 24, 24);
 }
+*/
 /*Contactos*/
+/*
 .contacto__container{
     width: 100%;
     background-image: linear-gradient(rgb(26, 24, 24), #9C0001, rgb(26, 24, 24));
     
 }
 #formulario{
-    /*background-image: linear-gradient(rgb(26, 24, 24),#9C0001);*/
+    /*background-image: linear-gradient(rgb(26, 24, 24),#9C0001);
     display: flex;
     padding: 2.5rem;
     gap: 7rem;
@@ -396,7 +392,8 @@ main{
 #formulario textarea{
     height: auto;
     resize: vertical;
-}
+}*/
+/*
 .button{
     width: 5rem;
     height: 2.5rem;
@@ -409,18 +406,15 @@ main{
 }
 .button:hover{
     box-shadow: 0 0 1.4rem #f7c331;
-}
-
+}*/
+/*
 footer{
     background-image: linear-gradient(rgb(26, 24, 24), #9C0001, rgb(26, 24, 24));
-    padding: var(--sp-sm);
-    max-height: 10rem;
- } 
- footer .menu__link{
-    
-    
- }   
-
+    padding: var(--sp-md);
+    max-height: 50rem;
+ } */
+  
+/*
 @keyframes appear{
     0%{
         transform: translate(-300px);
@@ -442,6 +436,7 @@ footer{
 } 
      a{
         font-size: 1.5em;
+        
 }
      .cards__imagenes{
         display: flex;
@@ -458,7 +453,7 @@ footer{
         font-size: 0.8em;
     }
  
-
+ 
 
      .cards__imagenes{
         display: flex;
@@ -534,4 +529,7 @@ h2{
     justify-content: center;
     align-items: center;
 }
+ }
+ @media screen and (max-width: 547px){
+    
  }

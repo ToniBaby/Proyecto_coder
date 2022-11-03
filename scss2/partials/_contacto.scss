@@ -1,0 +1,66 @@
+/*Contacto*/
+
+.contacto__container{
+    width: 100%;
+    background-image: linear-gradient(rgb(26, 24, 24), #9C0001, rgb(26, 24, 24));
+    
+}
+#formulario{
+    
+    display: flex;
+    padding: 2.5rem;
+    gap: 7rem;
+
+    .formulario__text{
+      max-width: 55%;
+      text-align: center;
+  }
+  .formulario__field{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      border-color: $secondary;
+      border-radius: 0.5rem;
+      align-items: center;
+   
+      padding: 1rem;
+      max-width: 45%;
+
+      .formulario__container{
+          display: flex;
+          flex-direction: column;
+          gap: 2.5rem;
+          border-color: $secondary;
+          border-radius: 0.5rem;
+          justify-content: center;
+          padding: 1rem;
+
+          .formulario__div{
+              display: grid;
+              gap: 0.3rem;
+
+              .formulario__info{
+                  font-size: $text-sm;
+                  color: $secondary;
+              }
+          }
+        
+      }
+      
+  
+  }
+  input,
+  textarea{
+    border-radius: 0.7rem;
+    border: none;
+    height: 3rem;
+    padding: 0.5rem 1rem;
+    background-color: $secondary;
+
+}
+  textarea{
+    height: auto;
+    resize: vertical;
+} 
+ 
+}
