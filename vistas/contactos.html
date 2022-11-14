@@ -7,7 +7,7 @@
     <link rel="shorcut icon" href="../nuevo proyecto/img/logo2.png">
     <link rel="stylesheet" href="../estilos/bootstrap.css">
     <link rel="stylesheet" href="../css/translated3cl.css">
-    <meta name="keywords" content="TARANTINO, PELICULAS, GALERIA, HOLLYWOOD, DIRECTOR, PRODUCTOR, CINE">
+    <meta name="keywords" content="TARANTINO, COMENTARIO, APELLIDO, NOMBRE, CONTACTO, PRODUCTOR, CINE">
     <title>Contactos</title>
 </head>
 <body>
@@ -34,41 +34,46 @@
         </nav>
     </header>
     <main class="contacto__container">
-        <form  id="formulario" class="container" action="#" method="get" enctype="multipart/form-data">
+        <div id="formulario">
             <div class="formulario__text">
                 <h2>Contacto</h2>
                 <p>Nos interesa conocerte y saber tù opinion al respecto, saber que es lo que te gustaria, contenido que desees ver o cambios que harias. Recorda que tù opinion es de gran interes!</p>
             </div>
-            <fieldset class="formulario__field">
-                <div class="formulario__container">
-                    <div class="formulario__div">
-                        <label class="formulario__info" for="name">Nombre</label>
-                        <input type="text" name="name" id="name"  required>
+    
+
+            <form class="mobile" action="#" method="get" enctype="multipart/form-data">
+          
+                <fieldset class="formulario__field">
+                    <div class="formulario__container">
+                        <div class="formulario__div">
+                            <label class="formulario__info" for="name">Nombre</label>
+                            <input type="text" name="name" id="name"  required>
+                        </div>
+                        <div class="formulario__div">
+                            <label class="formulario__info" for="apellido">Apellido</label>
+                            <input type="text" name="apellido" id="apellido" required>
+                        </div>
+         
+                        <div class="formulario__div">
+                            <label class="formulario__info" for="email">Email</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="formulario__div">
+                            <label class="formulario__info" for="aclaraciones">Comentario</label>
+                            <textarea name="aclaraciones" id="aclaraciones"></textarea>
+                        </div>
                     </div>
-                    <div class="formulario__div">
-                        <label class="formulario__info" for="apellido">Apellido</label>
-                        <input type="text" name="apellido" id="apellido" required>
-                    </div>
-     
-                    <div class="formulario__div">
-                        <label class="formulario__info" for="email">Email</label>
-                        <input type="email" name="email" id="email" required>
-                    </div>
-                    <div class="formulario__div">
-                        <label class="formulario__info" for="aclaraciones">Comentario</label>
-                        <textarea name="aclaraciones" id="aclaraciones"></textarea>
-                    </div>
-                </div>
-        
-                  
-                <div>
-                    <button  type="submit" class="button">Enviar</button>
-                </div>
             
-            </fieldset>
-        
+                      
+                    <div>
+                        <button  type="submit" class="button">Enviar</button>
+                    </div>
+                
+                </fieldset>
             
-        </form>
+                
+            </form>
+        </div>
     </main>
     <footer>
         <nav class="navbar">

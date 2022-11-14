@@ -5,11 +5,15 @@
     background-image: linear-gradient(rgb(26, 24, 24), #9C0001, rgb(26, 24, 24));
     
 }
+
 #formulario{
     
     display: flex;
     padding: 2.5rem;
+    justify-content: space-between;
     gap: 7rem;
+    padding: 5rem;
+    
 
     .formulario__text{
       max-width: 55%;
